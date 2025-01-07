@@ -6,3 +6,4 @@ NATURAL JOIN
 	SELECT id as person_id, name, age
 	FROM person
 )
+-- TO_FIX: ADD ORDER BY to be same as asking in the task

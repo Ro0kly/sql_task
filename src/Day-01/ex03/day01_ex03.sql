@@ -9,4 +9,5 @@ ON
 	and 
 	person_order.order_date=person_visits.visit_date
 )
-ORDER BY action_date DESC, person_id DESC
+ORDER BY action_date ASC, person_id DESC
+-- TO_FIX: JOIN Denied
