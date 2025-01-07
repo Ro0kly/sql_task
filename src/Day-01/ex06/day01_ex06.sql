@@ -1,6 +1,5 @@
 SELECT DISTINCT
 	person_order.order_date as action_date,
-	person_order.person_id,
 	(
 		SELECT name
 		FROM person

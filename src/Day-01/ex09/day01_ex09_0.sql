@@ -1,6 +1,6 @@
 SELECT *
 FROM pizzeria
-WHERE id IN
+WHERE id NOT IN
 (
 	SELECT pizzeria_id
 	FROM person_visits
