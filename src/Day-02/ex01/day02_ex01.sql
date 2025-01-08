@@ -13,3 +13,4 @@ LEFT JOIN
 )
 ON missing_date = visit_date
 WHERE visit_date is NULL
+ORDER BY visit_date ASC
