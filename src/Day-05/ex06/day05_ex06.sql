@@ -1,3 +1,5 @@
+CREATE INDEX idx_1 ON pizzeria (rating);
+
 SET enable_seqscan TO OFF;
 EXPLAIN (ANALYZE)
 SELECT
