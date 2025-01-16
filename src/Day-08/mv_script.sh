@@ -1,6 +1,7 @@
-mkdir ex0{0..9}
+mkdir ex0{0..7}
 
-for letter in {0..9}; do
+for letter in {0..7}; do
 	dir=ex0${letter}
-	mv "day07_ex0${letter}.sql" $dir/
+	mv "day08_ex0${letter}.sql" $dir/
+	mv "day08-0${letter}.png" $dir/ 
 done
