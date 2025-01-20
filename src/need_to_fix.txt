@@ -1,2 +1,0 @@
-Day-00 / ex03 - remove duplicates - DONE
--- THIS FILE IS OLD / SINCE Day-01 USE 'TO_FIX' statements
