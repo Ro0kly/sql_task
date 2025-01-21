@@ -5,7 +5,7 @@ WITH latest as (
 		rate_to_usd
 	FROM currency c 
     WHERE updated = (SELECT MAX(updated) FROM currency)),
-bal as(
+bal as (
 	SELECT
 		user_id,
 		type,
@@ -13,7 +13,7 @@ bal as(
 		sum(money) as vol
 	FROM balance
 	GROUP BY user_id, type, currency_id),
-res as(
+res as (
 	SELECT
 		COALESCE(u.name, 'not defined') as name,
     		COALESCE(u.lastname, 'not defined') as lastname,
